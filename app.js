@@ -1,7 +1,7 @@
 //lista de números sorteados
 let listaDeNumerosSorteados = [];
 //Quantidade de números disponíveis para o chute do jogo
-let numeroLimite = 50;
+let numeroLimite = 60;
 //insere o número aleatorio na variável numeroSecreto.
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
@@ -27,7 +27,7 @@ function exibirTextoNaTela(tag, texto) {
 function exibirMensagemInicial() {
 //Usando a função "exibirTextoNaTela()" declarada acima.
     exibirTextoNaTela('h1', 'Jogo do Número Secreto!');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 50.');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 60.');
 }
 exibirMensagemInicial();
 
